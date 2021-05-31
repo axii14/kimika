@@ -6,12 +6,13 @@ body {
     width: 100vw;
     background-image: url("https://images.alphacoders.com/203/203543.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
   }
   
-#overlay {
+  #overlay {
     position:absolute;
     top:50px;
-    left:35%;
+    left:32%;
   }
 
   .container {
@@ -25,6 +26,7 @@ body {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
+    padding-top: 28%;
   }
   
   .panel {
@@ -49,7 +51,7 @@ body {
         background-size: 135% 115%;
       }
       .title {
-  text-shadow: 0px 0px 0px rgb(206, 47, 255), 0 0 0px rgb(185, 33, 255), 0 0 0px rgb(213, 56, 252);
+  text-shadow: 0px 0px 0px rgb(61, 61, 61), 0 0 0px rgb(44, 44, 44), 0 0 0px rgb(43, 43, 43);
   color: #2e2e31da;
  
       }
@@ -154,7 +156,7 @@ body {
     transition: all 1s;
     top: 0;
     color: rgb(255, 255, 255);
-  text-shadow: 1px 1px 6px rgb(206, 47, 255), 0 0 25px rgb(185, 33, 255), 0 0 5px rgb(213, 56, 252);
+  text-shadow: 1px 1px 6px rgb(47, 102, 255), 0 0 25px rgb(48, 33, 255), 0 0 5px rgb(56, 239, 252);
   }
   
   .para {
